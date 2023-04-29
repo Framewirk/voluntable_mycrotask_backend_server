@@ -1,0 +1,34 @@
+{
+  "name": "voluntable-backend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --name voluntable-backend",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvast-it-solutions/beckn-voluntable-backend.git"
+  },
+  "author": "Pranav M S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tvast-it-solutions/beckn-voluntable-backend/issues"
+  },
+  "homepage": "https://github.com/tvast-it-solutions/beckn-voluntable-backend#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "google-auth-library": "^8.5.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.0",
+    "web-push": "^3.5.0"
+  }
+}
